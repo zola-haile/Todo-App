@@ -1,0 +1,84 @@
+body{
+    margin-left:10%;
+    margin-right:10%;
+    background-color: rgb(11, 3, 3);
+}
+#body2{
+    background-color: rgba(47, 34, 55, 0.388);
+    height: 100vh;
+    color: beige;
+    padding-left:5%;
+}
+
+#intro{
+    font-size: 4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro2{
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40%;
+
+}
+
+#subDisp{
+    padding-top: 3%;
+    padding-left: 5%;
+    font-size: 1.5em;
+}
+
+form{
+    margin-left:9% ;
+    border: 2px;
+    font-size: larger;
+}
+
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 11px;
+    padding-bottom: 3px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.toItem{
+    background-color:  rgba(63, 33, 82, 0.599);
+    margin-right:50% ;
+    margin-left: 5%;
+    margin-top:1%;
+    margin-bottom:1% ;
+    text-align: center;
+    border: 2px;
+    border-color: blueviolet;
+    border-radius: 15px;
+}
+
+.toItem:hover{
+    background-color:  rgba(99, 80, 26, 0.599);
+    font-size: 1.5rem;
+    margin-right:50% ;
+    margin-left: 5%;
+    margin-top:1%;
+    margin-bottom:1% ;
+    text-align: center;
+    border: 5px;
+    border-color: blueviolet;
+    border-radius: 15px;
+    text-decoration: line-through;
+
+}
+
+
+@media screen and (max-width: 775px) {
+    .intro2{
+        font-size: 1.5em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 85%;
+    
+    }
+  }

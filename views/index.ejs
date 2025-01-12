@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div id="body2">
+        <h1 id="intro">Welcome to myTodo</h1>
+        <h2 class="intro2">Feeling overwhelmed? We got you!</h2>
+        <h2 class="intro2">We help you keep tract of what needs to be done!</h2>
+        <div id="subDisp"> 
+            <h3>Enter new task: </h3>
+            <form action="/todo" method="POST" id="subForm">
+                <input id="inputVal" type="text" name="item" placeholder="Add new item..." required>
+                <button type="submit">Add task</button>
+            </form>
+
+            <h3>Tasks: </h3>
+            <ul>
+                <% for (let i=0; i < task.length; i++){ %>
+                    <li class="toItem"><%= task[i].item; %></li>
+                <% }; %>
+
+
+            </ul>
+        </div>   
+    </div>
+    <script src="/assets/todo_list.js"></script>
+</body>
+</html>
